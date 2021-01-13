@@ -1,4 +1,4 @@
-<h1 align="center"> PROJETO FINAL | Jogadores - América do Sul <br></br>
+<h1 align="center"> ⚽ PROJETO FINAL | Jogadores - América do Sul <br></br>
   <img width="300" src="https://github.com/alexandrenussbacher/Ironhack-Projeto_Final/blob/main/imagens/bola.jpg">
   <img width="300" src="https://github.com/alexandrenussbacher/Ironhack-Projeto_Final/blob/main/imagens/conmebol.jpg">
   </h>
