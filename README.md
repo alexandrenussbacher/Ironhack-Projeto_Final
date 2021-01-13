@@ -85,5 +85,3 @@ Criar um aplicativo que recomenda jogadores que atuam atualmente nas principais 
 ## AUTOR:
 
 Alexandre Nussbacher
-
-LINK PARA O TABLEAU PUBLIC: https://public.tableau.com/profile/alexandre.nussbacher#!/vizhome/RecomendaodejogadoresAmricadoSul/HISTRIA
