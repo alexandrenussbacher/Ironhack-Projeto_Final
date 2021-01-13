@@ -8,7 +8,10 @@
 - [PROPOSTA](#proposta)
 - [OBJETIVO](#objetivo)
 - [PROCESSO](#processo)
+- [RESULTADOS](#resultados)
 - [MELHORIAS](#melhorias)
+- [PROCESSO DE APRENDIZADO](#processo_de_aprendizado)
+- [AUTOR](#autor)
 
 
 <a name="proposta"></a>
@@ -26,20 +29,23 @@ Criar um aplicativo que recomenda jogadores que atuam atualmente nas principais 
 <a name="processo"></a>
 ## PROCESSO
 
-**1. INTRODUÇÃO**
-Busca por uma base de dados:
+**1. INTRODUÇÃO** | Busca por uma base de dados:
 
 - **Falta de dados disponíveis e confiáveis (clubes usam Wyscout: fortuna!);**
 - Utilização da API do site [rapidapi](https://rapidapi.com/api-sports/api/api-football).
 
-**2. PYTHON**
-Limpeza e manipulação dos dados.
+**2. PYTHON** | Limpeza e manipulação dos dados.
 
-**3. STREAMLIT**
-Criação do aplicativo.
+**3. STREAMLIT** | Criação do aplicativo.
 
-**4. TABLEAU**
-Apresentação contendo uma análise exploratória.
+**4. TABLEAU** | Apresentação contendo uma análise exploratória.
+
+<a name="resultados"></a>
+## RESULTADOS
+
+[APLICATIVO](http://localhost:8502/)
+
+[TABLEAU PUBLIC](https://public.tableau.com/profile/alexandre.nussbacher#!/vizhome/RecomendaodejogadoresAmricadoSul/HISTRIA)
 
 <a name="melhorias"></a>
 ## MELHORIAS
@@ -62,5 +68,22 @@ Apresentação contendo uma análise exploratória.
 <li> Exibir imagem do jogador pesquisado e o primeiro recomendado; </li> <p></p>
 
 <li> Selecionar número de jogadores recomendados. </li> <p></p>
+
+<a name="processo_de_aprendizado"></a>
+## PROCESSO DE APRENDIZADO
+
+### Habilidades aplicadas:
+
+- [x] Pandas
+- [x] Numpy
+- [x] Standard Scaler
+- [x] Recommendation System
+- [x] Tableau (Exploratory Data Analysis)
+- [x] Streamlit
+
+<a name="autor"></a>
+## AUTOR:
+
+Alexandre Nussbacher
 
 LINK PARA O TABLEAU PUBLIC: https://public.tableau.com/profile/alexandre.nussbacher#!/vizhome/RecomendaodejogadoresAmricadoSul/HISTRIA
