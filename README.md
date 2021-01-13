@@ -65,7 +65,7 @@ Criar um aplicativo que recomenda jogadores que atuam atualmente nas principais 
 
   - Separar laterais de zagueiros e volantes de meias. </li> <p></p>
 
-<li> Atribuir importância às variáveis e considerar liga e nacionalidade; </li> <p></p>
+<li> Atribuir importância às variáveis, pensar na melhor distância a ser utilizada e considerar liga e nacionalidade; </li> <p></p>
 
 <li> Exibir imagem do jogador pesquisado e o primeiro recomendado; </li> <p></p>
 
