@@ -45,6 +45,8 @@ Criar um aplicativo que recomenda jogadores que atuam atualmente nas principais 
 
 [APLICATIVO](http://localhost:8502/)
 
+<img width="300" src="https://github.com/alexandrenussbacher/Ironhack-Projeto_Final/blob/main/imagens/aplicativo.jpg">
+
 [TABLEAU PUBLIC](https://public.tableau.com/profile/alexandre.nussbacher#!/vizhome/RecomendaodejogadoresAmricadoSul/HISTRIA)
 
 <a name="melhorias"></a>
