@@ -9,12 +9,12 @@ import seaborn as sns
 st.markdown("<h1 style='text-align: center; color: green;'>Jogadores similares - América do Sul</h1>", unsafe_allow_html=True)
 
 # importando Dataframes
-jogadores=pd.read_csv("/Users/alexandrenussbacher/Desktop/Ironhack/Ironhack-ProjetoFinal/jogadores.csv")
-jogadores2=pd.read_csv("/Users/alexandrenussbacher/Desktop/Ironhack/Ironhack-ProjetoFinal/jogadores2.csv")
-similaridade_goleiros=pd.read_csv("/Users/alexandrenussbacher/Desktop/Ironhack/Ironhack-ProjetoFinal/similaridade_goleiros.csv")
-similaridade_defesa=pd.read_csv("/Users/alexandrenussbacher/Desktop/Ironhack/Ironhack-ProjetoFinal/similaridade_defesa.csv")
-similaridade_meias=pd.read_csv("/Users/alexandrenussbacher/Desktop/Ironhack/Ironhack-ProjetoFinal/similaridade_meias.csv")
-similaridade_atacantes=pd.read_csv("/Users/alexandrenussbacher/Desktop/Ironhack/Ironhack-ProjetoFinal/similaridade_atacantes.csv")
+jogadores=pd.read_csv("/Users/alexandrenussbacher/Desktop/Ironhack/Ironhack-ProjetoFinal/data/jogadores.csv")
+jogadores2=pd.read_csv("/Users/alexandrenussbacher/Desktop/Ironhack/Ironhack-ProjetoFinal/data/jogadores2.csv")
+similaridade_goleiros=pd.read_csv("/Users/alexandrenussbacher/Desktop/Ironhack/Ironhack-ProjetoFinal/data/similaridade_goleiros.csv")
+similaridade_defesa=pd.read_csv("/Users/alexandrenussbacher/Desktop/Ironhack/Ironhack-ProjetoFinal/data/similaridade_defesa.csv")
+similaridade_meias=pd.read_csv("/Users/alexandrenussbacher/Desktop/Ironhack/Ironhack-ProjetoFinal/data/similaridade_meias.csv")
+similaridade_atacantes=pd.read_csv("/Users/alexandrenussbacher/Desktop/Ironhack/Ironhack-ProjetoFinal/data/similaridade_atacantes.csv")
 
 # opções das ligas para o usuário selecionar
 liga=st.sidebar.selectbox("Escolha uma liga:", np.sort(jogadores["liga"].unique()))
@@ -23,7 +23,10 @@ liga=st.sidebar.selectbox("Escolha uma liga:", np.sort(jogadores["liga"].unique(
 time=st.sidebar.selectbox("Escolha um time:", np.sort(jogadores.loc[jogadores["liga"]==liga, "time"].unique()))
 
 # opções das posições para o usuário selecionar
-posição=st.sidebar.selectbox("Escolha uma posição", jogadores.loc[jogadores["time"]==time, "posição"].unique())
+lst=jogadores.loc[jogadores["time"]==time, "posição"].unique()
+lista=["Goalkeeper", "Defender", "Midfielder", "Attacker"]
+ordem={key: i for i, key in enumerate(lista)}
+posição=st.sidebar.selectbox("Escolha uma posição", sorted(lst, key=lambda d: ordem[d]))
 
 # opções dos jogadores para o usuário selecionar
 jogador=st.sidebar.selectbox("Escolha um jogador", np.sort(jogadores.loc[(jogadores["time"]==time) & (jogadores["posição"]==posição), "nome"].unique()))
