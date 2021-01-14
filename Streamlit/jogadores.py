@@ -69,7 +69,7 @@ def grafico_similaridade(df1, similaridade):
 if posição=="Goalkeeper":
 
     # definindo uma variável que exibe o id dos 5 goleiros mais similares ao escolhido pelo usuário
-    goleiros_similares=similaridade_goleiros.set_index("id")[str(id)].sort_values(ascending=False)[1:6].index
+    goleiros_similares=similaridade_goleiros.set_index("id")[str(id)].sort_values(ascending=False).index.unique()[1:6]
 
     # jogadores semelhantes
     st.write("Jogadores com características semelhantes:")
@@ -89,7 +89,7 @@ if posição=="Goalkeeper":
 if posição=="Defender":
 
     # definindo uma variável que exibe o id dos 5 defensores mais similares ao escolhido pelo usuário
-    defesa_similares=similaridade_defesa.set_index("id")[str(id)].sort_values(ascending=False)[1:6].index
+    defesa_similares=similaridade_defesa.set_index("id")[str(id)].sort_values(ascending=False).index.unique()[1:6]
     # jogadores semelhantes
     st.write("Jogadores com características semelhantes:")
     # definindo uma variável que encontra o id dos 5 defensores semelhantes no Dataframe a ser mostrado
@@ -108,7 +108,7 @@ if posição=="Defender":
 if posição=="Midfielder":
 
     # definindo uma variável que exibe o id dos 5 meias mais similares ao escolhido pelo usuário
-    meias_similares=similaridade_meias.set_index("id")[str(id)].sort_values(ascending=False)[1:6].index
+    meias_similares=similaridade_meias.set_index("id")[str(id)].sort_values(ascending=False).index.unique()[1:6]
 
     # jogadores semelhantes
     st.write("Jogadores com características semelhantes:")
@@ -127,7 +127,7 @@ if posição=="Midfielder":
 #atacantes
 if posição=="Attacker":
     # definindo uma variável que exibe o id dos 5 atacantes mais similares ao escolhido pelo usuário
-    atacantes_similares=similaridade_atacantes.set_index("id")[str(id)].sort_values(ascending=False)[1:6].index
+    atacantes_similares=similaridade_atacantes.set_index("id")[str(id)].sort_values(ascending=False).index.unique()[1:6]
 
     # jogadores semelhantes
     st.write("Jogadores com características semelhantes:")
