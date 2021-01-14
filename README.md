@@ -1,4 +1,4 @@
-<h1 align="center"> PROJETO FINAL | Jogadores - América do Sul <br></br>
+<h1 align="center"> ⚽ PROJETO FINAL | Jogadores - América do Sul <br></br>
   <img width="300" src="https://github.com/alexandrenussbacher/Ironhack-Projeto_Final/blob/main/imagens/bola.jpg">
   <img width="300" src="https://github.com/alexandrenussbacher/Ironhack-Projeto_Final/blob/main/imagens/conmebol.jpg">
   </h>
@@ -43,11 +43,11 @@ Criar um aplicativo que recomenda jogadores que atuam atualmente nas principais 
 <a name="resultados"></a>
 ## RESULTADOS
 
+[TABLEAU PUBLIC](https://public.tableau.com/profile/alexandre.nussbacher#!/vizhome/RecomendaodejogadoresAmricadoSul/HISTRIA)
+
 [APLICATIVO](http://localhost:8502/)
 
-<img width="300" src="https://github.com/alexandrenussbacher/Ironhack-Projeto_Final/blob/main/imagens/aplicativo.jpg">
-
-[TABLEAU PUBLIC](https://public.tableau.com/profile/alexandre.nussbacher#!/vizhome/RecomendaodejogadoresAmricadoSul/HISTRIA)
+<img src="https://github.com/alexandrenussbacher/Ironhack-Projeto_Final/blob/main/imagens/aplicativo.png">
 
 <a name="melhorias"></a>
 ## MELHORIAS
@@ -65,7 +65,7 @@ Criar um aplicativo que recomenda jogadores que atuam atualmente nas principais 
 
   - Separar laterais de zagueiros e volantes de meias. </li> <p></p>
 
-<li> Atribuir importância às variáveis e considerar liga e nacionalidade; </li> <p></p>
+<li> Atribuir importância às variáveis, pensar na melhor distância a ser utilizada e considerar liga e nacionalidade; </li> <p></p>
 
 <li> Exibir imagem do jogador pesquisado e o primeiro recomendado; </li> <p></p>
 
