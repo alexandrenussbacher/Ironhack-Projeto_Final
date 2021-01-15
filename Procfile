@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run jogadores.py
+web: sh setup.sh && streamlit run Streamlit/jogadores.py
