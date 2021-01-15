@@ -26,6 +26,12 @@ Criar um aplicativo que recomenda jogadores que atuam atualmente nas principais 
 
 - **Motivação: análise interessante para um diretor de futebol e analista de desempenho.**
 
+### Observações:
+
+> **Foram consideradas apenas as ligas nacionais de 2020 dos seguintes países: Brasil (Série A, Série B), Uruguai, Venezuela, Peru, Colômbia e Chile.**
+
+> **Argentina, Bolívia, Equador e Paraguai: falta de informação.**
+
 <a name="processo"></a>
 ## PROCESSO
 
