@@ -36,11 +36,9 @@ Criar um aplicativo que recomenda jogadores que atuam atualmente nas principais 
 
 **2. PYTHON** | Limpeza e manipulação dos dados.
 
-**3. PostgreSQL** | Exporte dos Datasets limpos para o SQL.
+**3. STREAMLIT** | Criação do aplicativo.
 
-**4. STREAMLIT** | Criação do aplicativo.
-
-**5. TABLEAU** | Apresentação contendo uma análise exploratória.
+**4. TABLEAU** | Apresentação contendo uma análise exploratória.
 
 <a name="resultados"></a>
 ## RESULTADOS
@@ -82,7 +80,7 @@ Criar um aplicativo que recomenda jogadores que atuam atualmente nas principais 
 - [x] Numpy
 - [x] Standard Scaler
 - [x] Recommendation System
-- [x] PostgreSQL
+- [x] Conexão do Python com PostgreSQL
 - [x] Tableau (Exploratory Data Analysis)
 - [x] Streamlit
 
