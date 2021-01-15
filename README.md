@@ -84,6 +84,7 @@ Criar um aplicativo que recomenda jogadores que atuam atualmente nas principais 
 
 - [x] Pandas
 - [x] Numpy
+- [x] API
 - [x] Standard Scaler
 - [x] Recommendation System
 - [x] Conexão do Python com PostgreSQL
