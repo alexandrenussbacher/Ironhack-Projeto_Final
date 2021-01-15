@@ -2317,8 +2317,6 @@ id,nome,posição,idade,data_nascimento,nacionalidade,time,liga,total_jogos,jogo
 13145,Y. Hurtado,Midfielder,25,14/12/1996,Colombia,Alianza Petrolera,Liga Colômbia,10,10,875,0,0,2,0,10,3,3,3,139,3,79,12,10,4
 13766,J. Moya,Defender,28,07/08/1992,Colombia,Deportes Tolima,Liga Colômbia,6,6,540,0,0,0,0,0,0,0,0,123,0,84,7,3,6
 13261,J. Pestaña,Midfielder,24,25/08/1997,Colombia,Deportes Tolima,Liga Colômbia,10,7,770,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-14024,Roger Fabricio Rojas Lazo,Attacker,31,09/06/1990,Honduras,Deportes Tolima,Liga Colômbia,7,6,405,0,0,0,1,4,1,2,1,60,6,86,3,5,10
-14096,Francisco Javier Rodríguez Hernández,Attacker,28,08/02/1993,Costa Rica,Deportes Tolima,Liga Colômbia,9,4,397,0,0,3,0,5,3,1,1,44,3,81,3,1,7
 13152,Juan David Ríos Henao,Midfielder,30,07/10/1991,Colombia,Deportes Tolima,Liga Colômbia,18,13,1215,0,0,0,0,0,0,3,3,134,3,92,8,4,5
 13370,C. Robles,Midfielder,29,16/05/1992,Colombia,Deportes Tolima,Liga Colômbia,11,8,727,0,0,1,0,4,1,5,3,224,4,89,5,2,8
 13352,W. Cuesta,Goalkeeper,28,19/02/1993,Colombia,Deportes Tolima,Liga Colômbia,4,4,360,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -2338,6 +2336,8 @@ id,nome,posição,idade,data_nascimento,nacionalidade,time,liga,total_jogos,jogo
 13348,Luis Fernando Miranda Molinares,Attacker,24,27/08/1997,Colombia,Deportes Tolima,Liga Colômbia,18,9,938,0,0,4,0,1,1,6,3,27,1,65,2,9,3
 13498,J. Marulanda,Defender,26,21/11/1995,Colombia,Deportes Tolima,Liga Colômbia,15,13,1270,0,0,0,1,0,0,2,1,116,1,88,9,1,4
 13362,D. Banguero,Midfielder,32,27/10/1989,Colombia,Deportes Tolima,Liga Colômbia,13,12,1060,0,0,1,1,2,1,8,7,206,4,74,9,3,7
+14024,Roger Fabricio Rojas Lazo,Attacker,31,09/06/1990,Honduras,Deportes Tolima,Liga Colômbia,7,6,405,0,0,0,1,4,1,2,1,60,6,86,3,5,10
+14096,Francisco Javier Rodríguez Hernández,Attacker,28,08/02/1993,Costa Rica,Deportes Tolima,Liga Colômbia,9,4,397,0,0,3,0,5,3,1,1,44,3,81,3,1,7
 13163,Carlos Bejarano,Goalkeeper,36,29/01/1985,Equatorial Guinea,Rionegro Aguilas,Liga Colômbia,22,22,1980,7,31,0,0,0,0,0,0,109,1,70,0,1,0
 59806,G. Montes,Defender,25,31/01/1996,Colombia,Rionegro Aguilas,Liga Colômbia,10,8,720,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 59514,M. Puerta,Defender,24,12/06/1997,Colombia,Rionegro Aguilas,Liga Colômbia,13,13,1149,0,0,0,0,1,0,3,2,97,1,65,9,4,14
