@@ -14,7 +14,7 @@ jogadores2=pd.read_csv("./data/jogadores2.csv")
 similaridade_goleiros=pd.read_csv("./data/similaridade_goleiros.csv")
 similaridade_defesa=pd.read_csv("./data/similaridade_defesa.csv")
 similaridade_meias=pd.read_csv("./data/similaridade_meias.csv")
-similaridade_atacantes=pd.read_csv("./similaridade_atacantes.csv")
+similaridade_atacantes=pd.read_csv("./data/similaridade_atacantes.csv")
 
 # opções das ligas para o usuário selecionar
 liga=st.sidebar.selectbox("Escolha uma liga:", np.sort(jogadores["liga"].unique()))
