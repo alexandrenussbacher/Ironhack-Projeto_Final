@@ -78,6 +78,8 @@ Criar um aplicativo que recomenda jogadores que atuam atualmente nas principais 
 
 <li> Selecionar número de jogadores recomendados. </li> <p></p>
 
+</ol>
+
 <a name="processo_de_aprendizado"></a>
 ## PROCESSO DE APRENDIZADO
 
